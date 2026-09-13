@@ -10,7 +10,7 @@ Model store demand as independent Normal random variables with mean 800 units an
 
 ## 🔎 Summary of takeaways
 
-For two stores with 2,000 units of combined inventory, the stored probability of covering aggregate demand is **87.11%**, and the 95th-percentile requirement is about **2,182 units**. For 12 stores, the modeled 95th-percentile aggregate demand is approximately **11,024 units**, compared with mean demand of 9,600 units.
+For two stores with 2,000 units of combined inventory, the stored probability of covering aggregate demand is **87.11%**, and the 95th-percentile requirement is about **2,182 units**, 182 units more than the guaranteed supply. For 12 stores with 12,000 units of combined inventory, the modeled 95th-percentile aggregate demand is approximately **11,024 units**, 976 units less than the guaranteed supply.
 
 The exercise illustrates risk pooling: under independence, expected demand grows linearly with the number of stores while aggregate uncertainty grows with the square root of that count. The main caveat is that real store demand is often correlated during promotions, weather events, or holidays, which would make the current independence-based estimates optimistic.
 
