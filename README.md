@@ -14,6 +14,8 @@ For two stores with 2,000 units of combined inventory, the stored probability of
 
 The exercise illustrates risk pooling: under independence, expected demand grows linearly with the number of stores while aggregate uncertainty grows with the square root of that count. The main caveat is that real store demand is often correlated during promotions, weather events, or holidays, which would make the current independence-based estimates optimistic.
 
+If you would like to see how the findings would be communicated at a high level with appropriate technical detail, you can review the [memorandum](https://github.com/saels/warehouse-fulfillment-probability/blob/0a8d2346d1aacc1a9e2b071fb2eb788510549eaa/Memorandum.md) in the repository, where I explain the findings and propose a minimal amount of additional inventory, assuming the company's current available inventory is 9,500 items.
+
 ## 🧭 Explore the code
 
 The [notebook](https://github.com/saels/warehouse-fulfillment-probability/blob/e0316935e3bfadeb15c0e22df9c0e2164c3e6849/Warehouse_fulfillment_probability.ipynb) walks through aggregation of Normal demand, CDF-based service probabilities, inverse-CDF inventory targets, and visualizations of the supply-service trade-off. Check the code for the formulas behind each planning scenario.
